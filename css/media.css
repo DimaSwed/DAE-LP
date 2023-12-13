@@ -1,0 +1,515 @@
+/* Стили для мобильных устройств с шириной экрана до 1350px */
+@media only screen and (max-width: 1310px) {
+	.container {
+		max-width: 1309px;
+	}
+
+	/* MEET */
+
+	.meet__inner {
+		margin: 0 50px;
+	}
+
+	.meet__content {
+		max-width: 420px;
+		padding: 30px;
+	}
+}
+
+/* Стили для мобильных устройств с шириной экрана до 1250px */
+@media only screen and (max-width: 1250px) {
+	.container {
+		max-width: 1249px;
+	}
+
+	/* MEET */
+
+	.meet__title {
+		margin-bottom: 0px;
+	}
+
+	/* FOOTER */
+
+	.footer__flex_part2 {
+		margin-right: 302px;
+	}
+}
+
+/* Стили для мобильных устройств с шириной экрана до 1100px */
+@media only screen and (max-width: 1100px) {
+	.container {
+		max-width: 1099px;
+	}
+
+	/* FOOTER */
+
+	.footer__flex_part2 {
+		margin-right: 200px;
+	}
+
+	.footer__flex {
+		margin-bottom: 100px;
+	}
+}
+
+/* Стили для мобильных устройств с шириной экрана до 1024px */
+@media only screen and (max-width: 1024px) {
+	.container {
+		max-width: 1023px;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	.burger {
+		display: inline;
+	}
+
+	/* MENU */
+
+	.sidenav {
+		display: inline;
+		position: fixed;
+		width: 350px;
+		left: 0;
+		top: 0;
+		margin: 0;
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%);
+		height: 100%;
+		height: calc(100% + 60px);
+		height: -moz-calc(100%);
+		padding-top: 22px 15px 60px 39px;
+		background-color: #f6f4ec;
+		z-index: 999;
+		overflow-y: auto;
+		will-change: transform;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transform: translateX(-105%);
+		transform: translateX(-105%);
+	}
+
+	.sidenav.sidenav-fixed {
+		-webkit-transform: translateX(-105%);
+		transform: translateX(-105%);
+	}
+	.sidenav.sidenav-fixed.right-aligned {
+		-webkit-transform: translateX(105%);
+		transform: translateX(105%);
+	}
+	.sidenav > a {
+		padding: 0 16px;
+	}
+	.sidenav .user-view {
+		padding: 16px 16px 0;
+	}
+
+	.sidenav.right-aligned {
+		right: 0;
+		-webkit-transform: translateX(105%);
+		transform: translateX(105%);
+		left: auto;
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+
+	.sidenav .collapsible {
+		margin: 0;
+	}
+
+	.sidenav li {
+		float: none;
+		line-height: normal;
+	}
+
+	.sidenav li {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.sidenav li.active {
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+
+	.sidenav li > a {
+		display: block;
+		padding: 0;
+		color: #df9b7a;
+		font-size: 1.57em;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 3.28em; /* 272.727% */
+	}
+
+	.sidenav button {
+		width: 210px;
+		height: 60px;
+		border-radius: 5px;
+		border: 2px solid #263238;
+		background-color: #f6f4ec;
+		margin-top: 27px;
+		position: relative;
+		transition: 1s box-shadow;
+	}
+
+	.sidenav button a {
+		color: #f6f4ec;
+		font-size: 1.28em;
+		text-decoration: none;
+	}
+
+	.sidenav button:hover {
+		box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+	}
+
+	.sidenav li > a:hover {
+		opacity: 0.8;
+	}
+
+	.sidenav li > a.btn,
+	.sidenav li > a.btn-large,
+	.sidenav li > a.btn-small,
+	.sidenav li > a.btn-large,
+	.sidenav li > a.btn-flat,
+	.sidenav li > a.btn-floating {
+		margin: 10px 15px;
+	}
+
+	.sidenav li > a.btn,
+	.sidenav li > a.btn-large,
+	.sidenav li > a.btn-small,
+	.sidenav li > a.btn-large,
+	.sidenav li > a.btn-floating {
+		color: #f6f4ec;
+	}
+
+	.sidenav li > a.btn-flat {
+		color: #343434;
+	}
+
+	.sidenav li > a.btn:hover,
+	.sidenav li > a.btn-large:hover,
+	.sidenav li > a.btn-small:hover,
+	.sidenav li > a.btn-large:hover {
+		background-color: #2bbbad;
+	}
+	*/ .sidenav li > a.btn-floating:hover {
+		background-color: #26a69a;
+	}
+
+	.sidenav li > a > i,
+	.sidenav li > a > [class^='mdi-'],
+	.sidenav li > a li > a > [class*='mdi-'],
+	.sidenav li > a > i.material-icons {
+		float: left;
+		height: 48px;
+		line-height: 3.48em;
+		margin: 0 32px 0 0;
+		width: 24px;
+		color: rgba(0, 0, 0, 0.54);
+	}
+
+	.sidenav .divider {
+		margin: 21px 0 0 0;
+		background: black;
+	}
+
+	.sidenav .subheader {
+		cursor: initial;
+		pointer-events: none;
+		color: rgba(0, 0, 0, 0.54);
+		font-weight: 500;
+		line-height: 3.42em;
+	}
+
+	.sidenav .subheader:hover {
+		background-color: transparent;
+	}
+
+	.sidenav .user-view {
+		position: relative;
+		padding: 32px 32px 0;
+		margin-bottom: 8px;
+	}
+
+	.sidenav .user-view > a {
+		height: auto;
+		padding: 0;
+	}
+
+	.sidenav .user-view > a:hover {
+		background-color: transparent;
+	}
+
+	.sidenav .user-view .background {
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+	}
+
+	.sidenav .user-view .circle,
+	.sidenav .user-view .name,
+	.sidenav .user-view .email {
+		display: block;
+	}
+
+	.sidenav .user-view .circle {
+		height: 64px;
+		width: 64px;
+	}
+
+	.sidenav .user-view .name,
+	.sidenav .user-view .email {
+		line-height: 1.71em;
+	}
+
+	.sidenav .user-view .name {
+		margin-top: 16px;
+		font-weight: 500;
+	}
+
+	.sidenav .user-view .email {
+		padding-bottom: 16px;
+		font-weight: 400;
+	}
+
+	.sidenav.sidenav-fixed {
+		left: 0;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		position: fixed;
+	}
+
+	.sidenav.sidenav-fixed.right-aligned {
+		right: 0;
+		left: auto;
+	}
+	/*  */
+
+	/* HEADER */
+
+	.navbar__inner {
+		padding: 15px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.navbar__menu {
+		display: none;
+	}
+
+	.navbar__menu-item a {
+		margin-right: 20px;
+	}
+
+	.navbar__cart {
+		width: 100px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0;
+	}
+
+	.header__title {
+		height: auto;
+		padding: 50px;
+	}
+
+	/* MEET */
+
+	.meet__inner {
+		/* width: 300px; */
+		margin: 0 50px;
+	}
+
+	.meet__content {
+		width: 350px;
+		height: 500px;
+		padding: 15px;
+		left: 70%;
+	}
+
+	/* BUY */
+
+	.buy__grid {
+		gap: 50px;
+	}
+
+	/* SETS */
+
+	.sets {
+		padding: 24px 50px 24px 50px;
+	}
+
+	/* FOOTER */
+
+	.footer {
+		padding: 50px;
+	}
+}
+
+/* Стили для мобильных устройств с шириной экрана до 800px */
+@media only screen and (max-width: 800px) {
+	.container {
+		max-width: 749px;
+	}
+
+	/* MEET */
+
+	.meet__inner {
+		margin: 0 30px 0 30px;
+		height: 947px;
+	}
+
+	.meet__content {
+		padding: 15px;
+		height: 450px;
+		max-width: 350px;
+		position: relative;
+		top: 45%;
+		left: 23%;
+	}
+
+	/* FOOTER */
+
+	.footer__flex {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer__flex_part2 {
+		margin-right: 0px;
+	}
+
+	.footer__text {
+		text-align: center;
+	}
+
+	.footer__flex_part3 {
+		width: 300px;
+	}
+}
+
+/* Стили для мобильных устройств с шириной экрана до 500px */
+@media only screen and (max-width: 500px) {
+	.container {
+		max-width: 499px;
+	}
+
+	/* HEADER */
+
+	.sidenav {
+		width: 200px;
+	}
+
+	ul#slide-out:not(.browser-default) {
+		padding: 20px 10px 0 20px;
+	}
+
+	.header__title {
+		margin: 0 auto;
+	}
+
+	.header__title-text1 {
+		margin: 0 auto;
+		max-width: 200px;
+	}
+
+	.header__title-text2 {
+		margin: 0 auto;
+		max-width: 200px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.header__title-text3 {
+		margin: 0 auto;
+	}
+
+	/* MEET */
+
+	.meet__inner {
+		margin: 0;
+		height: 600px;
+		max-width: 100%;
+	}
+
+	.meet__content {
+		padding: 15px;
+		height: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+		left: 0;
+	}
+
+	.meet__title {
+		line-height: 2.11em; /* 192% */
+	}
+
+	.meet__text {
+		font-size: 0.9em;
+		margin-bottom: 15px;
+	}
+
+	/* SETS */
+
+	.sets__title {
+		padding-right: 0px;
+		line-height: 1.28em;
+	}
+
+	/* FOLLOW */
+
+	.follow__grid {
+		grid-template-columns: auto;
+		gap: 10px;
+	}
+
+	/* BUY */
+
+	.buy__inner {
+		padding: 15px;
+	}
+
+	/* FOOTER */
+
+	.footer {
+		padding: 15px;
+	}
+}
+
+/* Стили для мобильных устройств с шириной экрана до 320px */
+@media only screen and (max-width: 320px) {
+	.container {
+		max-width: 319px;
+	}
+
+	.header__title {
+		padding: 15px;
+	}
+
+	.sets {
+		padding: 15px;
+	}
+
+	.footer__flex {
+		margin-bottom: 50px;
+	}
+	.footer__flex_part1 {
+		width: 150px;
+		height: 150px;
+	}
+
+	.footer__flex_part2 {
+		width: 150px;
+		height: 150px;
+		margin-right: 0px;
+	}
+}

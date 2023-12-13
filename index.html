@@ -8,18 +8,10 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/media.css" />
 		<title>Dae Page</title>
 	</head>
 	<body>
-		<!-- Меню-бургер -->
-		<ul id="slide-out" class="sidenav" style="transform: translateX(-105%)">
-			<li><img class="logo-burg" src="img/logo.png" alt="logo" /></li>
-			<li><div class="divider"></div></li>
-			<li><a class="waves-effect" href="#buy">Shop</a></li>
-			<li><a class="waves-effect" href="#sets">The Edit</a></li>
-			<li><a class="waves-effect" href="#meet">Our Story</a></li>
-			<li><a class="waves-effect" href="#follow">Reviews</a></li>
-		</ul>
 		<!-- HEADER -->
 		<header class="header">
 			<!-- 1й раздел -->
@@ -35,8 +27,25 @@
 							<li class="navbar__menu-item"><a href="#follow">Reviews</a></li>
 						</ul>
 						<img class="logo" src="img/logo.png" alt="logo" />
+
+						<!-- BURGER -->
+						<a data-target="slide-out" class="burger sidenav-trigger">
+							<div class="burger__line"></div>
+							<div class="burger__line"></div>
+							<div class="burger__line"></div>
+						</a>
+
+						<ul id="slide-out" class="sidenav">
+							<li><img class="logo" src="img/logo.png" alt="logo" /></li>
+							<li><div class="divider"></div></li>
+							<li><a href="#buy">Shop</a></li>
+							<li><a href="#sets">The Edit</a></li>
+							<li><a href="#meet">Our Story</a></li>
+							<li><a href="#follow">Reviews</a></li>
+						</ul>
+						<!--  -->
+
 						<div class="navbar__cart">
-							<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 							<p class="navbar__cart-txt">Account</p>
 							<img class="navbar__cart-img" src="img/bag.svg" alt="cart" />
 							<p class="navbar__cart-txt">0</p>
@@ -94,10 +103,12 @@
 		<!-- SETS -->
 		<section class="sets" id="sets">
 			<div class="container">
-				<div class="sets__picture-box"></div>
-				<div class="sets__content">
-					<h3 class="sets__title">Feel the warmth of the desert wherever you are.</h3>
-					<a href="#"><h4 class="sets__subheading">Shop Sets</h4></a>
+				<div class="sets__inner">
+					<div class="sets__picture-box"></div>
+					<div class="sets__content">
+						<h3 class="sets__title">Feel the warmth of the desert wherever you are.</h3>
+						<a href="#"><h4 class="sets__subheading">Shop Sets</h4></a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -126,56 +137,42 @@
 				<div class="follow__grid">
 					<!-- 1я карточка -->
 					<div class="follow__grid-item">
-						<div class="follow__grid-box">
-							<img class="follow__grid-img1" src="img/pic_1.png" alt="picture" />
-						</div>
-
+						<img class="follow__grid-img1" src="img/pic_1.png" alt="picture" />
 						<a href="#">
 							<img class="follow__grid-img2" src="img/logo2.png" alt="dae" />
 						</a>
 					</div>
 					<!-- 2я карточка -->
 					<div class="follow__grid-item">
-						<div class="follow__grid-box">
-							<img class="follow__grid-img1" src="img/pic_2.png" alt="picture" />
-						</div>
-
+						<img class="follow__grid-img1" src="img/pic_2.png" alt="picture" />
 						<a href="#">
 							<img class="follow__grid-img2" src="img/logo2.png" alt="dae" />
 						</a>
 					</div>
 					<!-- 3я карточка -->
 					<div class="follow__grid-item">
-						<div class="follow__grid-box">
-							<img class="follow__grid-img1" src="img/pic_3.png" alt="picture" />
-						</div>
+						<img class="follow__grid-img1" src="img/pic_3.png" alt="picture" />
 						<a href="#">
 							<img class="follow__grid-img2" src="img/logo2.png" alt="dae" />
 						</a>
 					</div>
 					<!-- 4я карточка -->
 					<div class="follow__grid-item">
-						<div class="follow__grid-box">
-							<img class="follow__grid-img1" src="img/pic_4.png" alt="picture" />
-						</div>
+						<img class="follow__grid-img1" src="img/pic_4.png" alt="picture" />
 						<a href="#">
 							<img class="follow__grid-img2" src="img/logo2.png" alt="dae" />
 						</a>
 					</div>
 					<!-- 5я карточка -->
 					<div class="follow__grid-item">
-						<div class="follow__grid-box">
-							<img class="follow__grid-img1" src="img/pic_5.png" alt="picture" />
-						</div>
+						<img class="follow__grid-img1" src="img/pic_5.png" alt="picture" />
 						<a href="#">
 							<img class="follow__grid-img2" src="img/logo2.png" alt="dae" />
 						</a>
 					</div>
 					<!-- 6я карточка -->
 					<div class="follow__grid-item">
-						<div class="follow__grid-box">
-							<img class="follow__grid-img1" src="img/pic_6.png" alt="picture" />
-						</div>
+						<img class="follow__grid-img1" src="img/pic_6.png" alt="picture" />
 						<a href="#">
 							<img class="follow__grid-img2" src="img/logo2.png" alt="dae" />
 						</a>
@@ -214,10 +211,7 @@
 			</div>
 		</footer>
 
-		<!-- <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-
-		<div class="sidenav-overlay" style="display: none; opacity: 0"></div>
-		<div class="drag-target"></div> -->
 	</body>
 </html>
